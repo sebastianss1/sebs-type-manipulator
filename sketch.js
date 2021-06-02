@@ -98,7 +98,8 @@ function draw() {
   textSize(size)
   // stroke()
   strokeWeight(boldness)
-  scale(mouseX / 100, mouseY / 100)
+  // scale(mouseX / 100, mouseY / 100)
+  // scale(size)
   text(inputTextString, 500, 300)
   xSpace = width + letterSpacing;
   ySpace = length + letterSpacing; 
@@ -147,7 +148,7 @@ function draw() {
 
     translate(-(width+stretcherX)/2,-(length+stretcherY)/2);
 
-    textEngine();
+    // textEngine();
     pop();
 
 }
