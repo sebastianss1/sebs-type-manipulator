@@ -10,16 +10,23 @@
 
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
-    <script src="libraries/p5.asciiart.min.js"></script>
-    <script src="libraries/p5.dimensions.js"></script>
-    <script src="libraries/p5.clickable.js"></script>
-    <script src="libraries/p5.createloop.js"></script>
+    <script src="text_engine.js"></script>
     <script src="sketch.js"></script>
+      <style>
+          body {
+            padding: 0;
+            margin: 0;
+          }
+        
+          canvas {
+            vertical-align: top;
+          }
+        </style>
   </head>
 
   <body>
     <div class="text-input-area">
-    <textarea id="textarea">Test your text here!</textarea>
+    <textarea class="text-area" autofocus>Test your text here!</textarea>
     </div>
 
       <button class="about-alert" onClick="openAlert()">About</button>
