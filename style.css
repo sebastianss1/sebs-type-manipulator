@@ -19,6 +19,54 @@ canvas {
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 100px;
+  top: 60px;
   left: 30px;
+  width: 150px;
+}
+
+.clock {
+  width: 50px;
+}
+
+.outline-button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  width: 150px;
+}
+
+.particles-button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 140px;
+  left: 30px;
+  width: 150px;
+  text-decoration: none;
+}
+.bounce-button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 180px;
+  left: 30px;
+  width: 150px;
+}
+.distorted-button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 220px;
+  left: 30px;
+  width: 150px;
+}
+
+a:visited {
+  color: white;
 }
